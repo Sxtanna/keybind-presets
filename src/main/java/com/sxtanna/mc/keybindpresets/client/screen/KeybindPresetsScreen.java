@@ -26,6 +26,9 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
     private static final String SPLITTER = "::";
 
 
+    private static final Text NEW_PRESET_NAME_TITLE = Text.translatable("gui.keybind-presets.presets.new-preset-name");
+
+
     private static final int BUTTON_WIDTH   = 200;
     private static final int BUTTON_HEIGHT  = 20;
     private static final int BUTTON_SPACING = 5;
@@ -149,6 +152,9 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
 
         // render the title of the screen at the top
         drawCenteredText(matrices, this.textRenderer, this.title, center, 8, 0xffffff);
+
+        // draw the header for the new preset name text field
+        drawCenteredText(matrices, this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.y - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
 
         super.render(matrices, mouseX, mouseY, delta);
     }
