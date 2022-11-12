@@ -27,11 +27,13 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+import java.util.regex.Pattern;
 
 @Environment(EnvType.CLIENT)
 public class KeybindPresetsClient implements ClientModInitializer {
 
-    private static final String PRESET_FILE_EXTENSION = "presets";
+    public static final String  PRESET_FILE_EXTENSION   = "presets";
+    public static final Pattern INVALID_FILE_CHARACTERS = Pattern.compile("[\\\\/:*?\"<>|]");
 
 
     private static final String KEYBINDS_SCREEN_EXPECTED_DONE_BUTTON_TRANSLATION_KEY  = "gui.done";
