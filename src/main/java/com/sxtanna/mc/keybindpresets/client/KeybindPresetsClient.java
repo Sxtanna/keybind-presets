@@ -18,11 +18,21 @@ import net.minecraft.client.gui.widget.ClickableWidget;
 import net.minecraft.text.Text;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import oshi.annotation.concurrent.Immutable;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 @Environment(EnvType.CLIENT)
 public class KeybindPresetsClient implements ClientModInitializer {
+
+    private static final String PRESET_FILE_EXTENSION = "presets";
+
 
     private static final String KEYBINDS_SCREEN_EXPECTED_DONE_BUTTON_TRANSLATION_KEY  = "gui.done";
     private static final String KEYBINDS_SCREEN_EXPECTED_RESET_BUTTON_TRANSLATION_KEY = "controls.resetAll";
@@ -35,8 +45,46 @@ public class KeybindPresetsClient implements ClientModInitializer {
     }
 
 
+    private static Path keybindPresetsDirectory;
+
+    public static @NotNull Optional<Path> keybindPresetsDirectory() {
+        return Optional.ofNullable(keybindPresetsDirectory);
+    }
+
+    public static @NotNull @Immutable Collection<Path> keybindPresetPaths() {
+        try {
+            final var path = keybindPresetsDirectory();
+            if (path.isEmpty()) {
+                return Collections.emptyList();
+            }
+
+            try (final var files = Files.list(path.get())
+                                        // only regular files (not symlink or directory)
+                                        .filter(Files::isRegularFile)
+                                        // only files that have the "presets" extension
+                                        .filter(it -> it.getFileName().toString().endsWith("." + PRESET_FILE_EXTENSION))) {
+                return files.toList();
+            }
+        } catch (final Exception ex) {
+            log().error("could not list files in presets directory", ex);
+            return Collections.emptyList();
+        }
+    }
+
+
     @Override
     public void onInitializeClient() {
+        keybindPresetsDirectory = MinecraftClient.getInstance().runDirectory.toPath().resolve("keybind_presets");
+
+        if (Files.notExists(keybindPresetsDirectory)) {
+            try {
+                Files.createDirectories(keybindPresetsDirectory);
+            } catch (final IOException ex) {
+                log().error("could not create keybind presets directory", ex);
+                return;
+            }
+        }
+
         ScreenEvents.AFTER_INIT.register((client, screen, scaledWidth, scaledHeight) -> {
             if (screen instanceof KeybindsScreen) {
                 initializePresetsButton(screen);
