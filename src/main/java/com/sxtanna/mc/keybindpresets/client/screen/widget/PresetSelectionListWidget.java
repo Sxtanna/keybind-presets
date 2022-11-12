@@ -63,6 +63,11 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
     }
 
 
+    public int getHeight() {
+        return this.bottom;
+    }
+
+
     @Override
     public int getRowWidth() {
         return rowWidth;
@@ -101,6 +106,10 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
             this.textWidth = textRenderer.getWidth(orderedText);
         }
 
+
+        public @NotNull Path getPath() {
+            return this.path;
+        }
 
         @Override
         public boolean mouseClicked(final double mouseX,
