@@ -17,7 +17,7 @@ import java.util.Collection;
 
 public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidget<PresetSelectionListWidget.PresetEntry> {
 
-    private static final int TOP_OFFSET   = 30;
+    private static final int TOP_OFFSET   = 25;
     private static final int ENTRY_HEIGHT = 18;
 
 
@@ -39,7 +39,7 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
               presetsScreen.height,
 
               TOP_OFFSET,
-              presetsScreen.height - (presetsScreen.height / 2),
+              presetsScreen.height - ((int) (((double) presetsScreen.height) / 1.8D)),
 
               ENTRY_HEIGHT);
 

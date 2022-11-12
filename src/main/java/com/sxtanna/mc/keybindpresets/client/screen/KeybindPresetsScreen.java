@@ -92,10 +92,10 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
 
         newPresetNameField = new TextFieldWidget(this.textRenderer,
 
-                                                 centeredButtonStart,
+                                                 centeredButtonStart - (BUTTON_WIDTH / 8),
                                                  savePresetButton.y - BUTTON_HEIGHT - BUTTON_SPACING,
 
-                                                 BUTTON_WIDTH,
+                                                 BUTTON_WIDTH + (BUTTON_WIDTH / 4),
                                                  BUTTON_HEIGHT,
 
                                                  Text.translatable("gui.keybind-presets.presets.new-preset-name"));
