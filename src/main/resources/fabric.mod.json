@@ -8,7 +8,8 @@
     "Sxtanna"
   ],
   "contact": {
-    "website": "https://sxtanna.com"
+    "homepage": "https://gh.sxtanna.com/keybind-presets",
+    "issues": "https://gh.sxtanna.com/keybind-presets/issues"
   },
   "license": "MIT",
   "icon": "assets/keybind-presets/icon.png",
