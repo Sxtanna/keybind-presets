@@ -1,18 +1,18 @@
 {
-  "total": 0,
+  "total": 11,
   "tools inspection": {
-    "Code Inspection": 0
+    "Code Inspection": 11
   },
   "attributes": {
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/Sxtanna/keybind-presets",
-        "revisionId": "4e562956cf97874cfc4db470b88e39b742143065",
+        "revisionId": "579a97ff22777219aae31e07075652d59a69dd81",
         "branch": "main"
       }
     },
     "deviceId": "200820300000000-1324-4e61-8ecb-a8b7d65cf65c",
-    "jobUrl": "https://github.com/Sxtanna/keybind-presets/actions/runs/3452882290",
+    "jobUrl": "https://github.com/Sxtanna/keybind-presets/actions/runs/3452915054",
     "repoUrl": "https://github.com/Sxtanna/keybind-presets"
   }
 }

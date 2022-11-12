@@ -1,1 +1,249 @@
-{"version":"3","listProblem":[]}
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Cannot resolve symbol 'ModInitializer'",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/KeybindPresets.java",
+      "language": "JAVA",
+      "line": 5,
+      "offset": 40,
+      "length": 14,
+      "code": {
+        "startLine": 3,
+        "length": 14,
+        "offset": 80,
+        "surroundingCode": "import net.fabricmc.api.ModInitializer;\n\npublic class KeybindPresets implements ModInitializer {\n    @Override\n    public void onInitialize() {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "de040500d6814467db999a547f3bb9d04ebee38cbb3b1924607933407b14aaf7"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Class name expected",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/KeybindPresets.java",
+      "language": "JAVA",
+      "line": 5,
+      "offset": 40,
+      "length": 14,
+      "code": {
+        "startLine": 3,
+        "length": 14,
+        "offset": 80,
+        "surroundingCode": "import net.fabricmc.api.ModInitializer;\n\npublic class KeybindPresets implements ModInitializer {\n    @Override\n    public void onInitialize() {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "0c16c08c346dc5b3b2a25e9ff155758af0743ea80de34cd02d8aa5c406a7bcbb"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Method does not override method from its superclass",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/KeybindPresets.java",
+      "language": "JAVA",
+      "line": 6,
+      "offset": 5,
+      "length": 1,
+      "code": {
+        "startLine": 4,
+        "length": 1,
+        "offset": 61,
+        "surroundingCode": "\npublic class KeybindPresets implements ModInitializer {\n    @Override\n    public void onInitialize() {\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "cd220bd7e6aed033ab5acb87de65065434bd671e6c99cf2f07f940093519b8c8"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Cannot resolve symbol 'api'",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/KeybindPresets.java",
+      "language": "JAVA",
+      "line": 3,
+      "offset": 21,
+      "length": 3,
+      "code": {
+        "startLine": 1,
+        "length": 3,
+        "offset": 60,
+        "surroundingCode": "package com.sxtanna.mc.keybindpresets;\n\nimport net.fabricmc.api.ModInitializer;\n\npublic class KeybindPresets implements ModInitializer {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "a6262227c969ff97d91fc9327be4ed2a57334da24fc8e6a4cbfb6119839aa585"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Cannot resolve symbol 'minecraft'",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/client/helper/ScreenHelper.java",
+      "language": "JAVA",
+      "line": 6,
+      "offset": 12,
+      "length": 9,
+      "code": {
+        "startLine": 4,
+        "length": 9,
+        "offset": 55,
+        "surroundingCode": "import org.jetbrains.annotations.Nullable;\n\nimport net.minecraft.client.gui.widget.ClickableWidget;\nimport net.minecraft.text.TranslatableTextContent;\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "d07bf08690bdc7b5f12fbb7b8b6049301d1d7c8487b48cf1f48686b4734e9754"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Cannot resolve symbol 'client'",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/client/helper/ScreenHelper.java",
+      "language": "JAVA",
+      "line": 6,
+      "offset": 22,
+      "length": 6,
+      "code": {
+        "startLine": 4,
+        "length": 6,
+        "offset": 65,
+        "surroundingCode": "import org.jetbrains.annotations.Nullable;\n\nimport net.minecraft.client.gui.widget.ClickableWidget;\nimport net.minecraft.text.TranslatableTextContent;\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "b60c0531bc8194f032a44d025570c1c4fa3c51c446d0ee6f755f4375005cf5d1"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Cannot resolve symbol 'gui'",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/client/helper/ScreenHelper.java",
+      "language": "JAVA",
+      "line": 6,
+      "offset": 29,
+      "length": 3,
+      "code": {
+        "startLine": 4,
+        "length": 3,
+        "offset": 72,
+        "surroundingCode": "import org.jetbrains.annotations.Nullable;\n\nimport net.minecraft.client.gui.widget.ClickableWidget;\nimport net.minecraft.text.TranslatableTextContent;\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "815777bfcfba3b00c0d9979c86034768e32b1ad52724959e6703d584d7e47665"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Java annotator",
+  "tags": [
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "Cannot resolve symbol 'widget'",
+  "detailsInfo": "Allows viewing the problems reported by the Java annotator: compilation problems, unresolved by IDEA references, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/java/com/sxtanna/mc/keybindpresets/client/helper/ScreenHelper.java",
+      "language": "JAVA",
+      "line": 6,
+      "offset": 33,
+      "length": 6,
+      "code": {
+        "startLine": 4,
+        "length": 6,
+        "offset": 76,
+        "surroundingCode": "import org.jetbrains.annotations.Nullable;\n\nimport net.minecraft.client.gui.widget.ClickableWidget;\nimport net.minecraft.text.TranslatableTextContent;\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project.main",
+    "inspectionName": "JavaAnnotator"
+  },
+  "hash": "08bdc703382e53841959769f3bbf3f9d21eadc510433929d843a2cfebd510d7f"
+}]}
