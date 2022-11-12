@@ -1,0 +1,16 @@
+{
+  "modules": [
+    {
+      "name": "project",
+      "languageLevel": 17
+    },
+    {
+      "name": "project.test",
+      "languageLevel": 17
+    },
+    {
+      "name": "project.main",
+      "languageLevel": 17
+    }
+  ]
+}
