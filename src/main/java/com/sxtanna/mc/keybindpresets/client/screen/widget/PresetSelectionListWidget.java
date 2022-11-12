@@ -121,8 +121,10 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
 
             if (PresetSelectionListWidget.this.getSelectedOrNull() == this) {
                 selectPreset(null);
+                presetsScreen.getLoadPresetButton().ifPresent(loadButton -> loadButton.active = false);
             } else {
                 selectPreset(this);
+                presetsScreen.getLoadPresetButton().ifPresent(loadButton -> loadButton.active = true);
             }
 
             return true;
