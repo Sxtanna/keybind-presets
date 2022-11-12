@@ -82,7 +82,7 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
                                             BUTTON_WIDTH,
                                             BUTTON_HEIGHT,
 
-                                            Text.of("Save Preset"),
+                                            Text.translatable("gui.keybind-presets.presets.save-button"),
                                             this::savePreset);
         savePresetButton.active = false;
 
@@ -95,7 +95,7 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
                                                  BUTTON_WIDTH,
                                                  BUTTON_HEIGHT,
 
-                                                 Text.of("Preset Name"));
+                                                 Text.translatable("gui.keybind-presets.presets.new-preset-name"));
 
         newPresetNameField.setTextPredicate(KeybindPresetsClient.INVALID_FILE_CHARACTERS.asPredicate().negate());
         newPresetNameField.setChangedListener(presetName -> savePresetButton.active = !presetName.isBlank());
@@ -107,7 +107,7 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
                                             BUTTON_WIDTH,
                                             BUTTON_HEIGHT,
 
-                                            Text.of("Load Preset"),
+                                            Text.translatable("gui.keybind-presets.presets.load-button"),
                                             this::loadPreset);
         loadPresetButton.active = false;
 

@@ -1,4 +1,9 @@
 {
   "gui.keybind-presets.presets.title": "Presets",
-  "gui.keybind-presets.presets.button": "Presets"
+  "gui.keybind-presets.presets.button": "Presets",
+
+  "gui.keybind-presets.presets.load-button": "Load Preset",
+  "gui.keybind-presets.presets.save-button": "Save Preset",
+
+  "gui.keybind-presets.presets.new-preset-name": "New Preset Name"
 }
