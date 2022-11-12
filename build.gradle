@@ -18,6 +18,9 @@ dependencies {
 
 tasks.withType(JavaCompile).configureEach {
     it.options.encoding = "UTF-8"
+
+    it.sourceCompatibility = JavaVersion.VERSION_17
+    it.targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {
