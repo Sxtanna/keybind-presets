@@ -3,12 +3,14 @@ package com.sxtanna.mc.keybindpresets.client;
 import org.jetbrains.annotations.NotNull;
 
 import com.sxtanna.mc.keybindpresets.client.helper.ScreenHelper;
+import com.sxtanna.mc.keybindpresets.client.screen.KeybindPresetsScreen;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
 import net.fabricmc.fabric.api.client.screen.v1.Screens;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.option.KeybindsScreen;
 import net.minecraft.client.gui.widget.ButtonWidget;
@@ -88,7 +90,7 @@ public class KeybindPresetsClient implements ClientModInitializer {
                                              presetsButtonTitle,
 
                                              // when the button is clicked, open the presets screen
-                                             button -> {});
+                                             button -> MinecraftClient.getInstance().setScreen(new KeybindPresetsScreen(screen)));
 
         // add the presets button after the reset button
         buttons.add(buttons.indexOf(reset) + 1, presets);
