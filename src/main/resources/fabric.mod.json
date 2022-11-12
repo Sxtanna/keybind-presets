@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "keybind-presets",
+  "version": "${version}",
+  "name": "Keybind Presets",
+  "description": "Allows saving the game's keybinds into presets for easy switching",
+  "authors": [
+    "Sxtanna"
+  ],
+  "contact": {
+    "website": "https://sxtanna.com"
+  },
+  "license": "MIT",
+  "icon": "assets/keybind-presets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.sxtanna.mc.keybindpresets.client.KeybindPresetsClient"
+    ],
+    "main": [
+      "com.sxtanna.mc.keybindpresets.KeybindPresets"
+    ]
+  },
+  "mixins": [
+    "keybind-presets.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
