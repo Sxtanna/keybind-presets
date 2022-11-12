@@ -39,7 +39,7 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
 
     private ButtonWidget    savePresetButton;
     private ButtonWidget    loadPresetButton;
-    
+
     private TextFieldWidget newPresetNameField;
 
 
@@ -220,6 +220,7 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
 
         final var savedKeybinds = Stream.of(text.split("\n"))
                                         .map(line -> line.split(SPLITTER))
+                                        .filter(array -> array.length >= 2)
                                         .collect(Collectors.toMap(ar -> ar[0],
                                                                   ar -> InputUtil.fromTranslationKey(ar[1])));
 
