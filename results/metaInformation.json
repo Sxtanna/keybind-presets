@@ -7,12 +7,12 @@
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/Sxtanna/keybind-presets",
-        "revisionId": "a1da2a3c0072b24e401a70777dfc8ec1e839ff6a",
+        "revisionId": "650634d410cdbabf7f52627917015c1e48cb23de",
         "branch": "main"
       }
     },
     "deviceId": "200820300000000-1324-4e61-8ecb-a8b7d65cf65c",
-    "jobUrl": "https://github.com/Sxtanna/keybind-presets/actions/runs/3794618157",
+    "jobUrl": "https://github.com/Sxtanna/keybind-presets/actions/runs/3794673794",
     "repoUrl": "https://github.com/Sxtanna/keybind-presets"
   }
 }
