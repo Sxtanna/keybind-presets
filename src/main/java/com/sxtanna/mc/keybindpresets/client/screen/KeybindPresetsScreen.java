@@ -37,8 +37,8 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
 
     private PresetSelectionListWidget presetSelectionListWidget;
 
-    private ButtonWidget    savePresetButton;
-    private ButtonWidget    loadPresetButton;
+    private ButtonWidget savePresetButton;
+    private ButtonWidget loadPresetButton;
 
     private TextFieldWidget newPresetNameField;
 
@@ -79,21 +79,20 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         final var centeredButtonStart = center - (BUTTON_WIDTH / 2);
 
 
-        savePresetButton = new ButtonWidget(centeredButtonStart,
-                                            (this.height - BOTTOM_OFFSET) - BUTTON_HEIGHT - BUTTON_SPACING,
-
-                                            BUTTON_WIDTH,
-                                            BUTTON_HEIGHT,
-
-                                            Text.translatable("gui.keybind-presets.presets.save-button"),
-                                            this::savePreset);
+        savePresetButton = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.save-button"),
+                                                this::savePreset)
+                                       .size(BUTTON_WIDTH,
+                                             BUTTON_HEIGHT)
+                                       .position(centeredButtonStart,
+                                                 (this.height - BOTTOM_OFFSET) - BUTTON_HEIGHT - BUTTON_SPACING)
+                                       .build();
         savePresetButton.active = false;
 
 
         newPresetNameField = new TextFieldWidget(this.textRenderer,
 
                                                  centeredButtonStart - (BUTTON_WIDTH / 8),
-                                                 savePresetButton.y - BUTTON_HEIGHT - BUTTON_SPACING,
+                                                 savePresetButton.getY() - BUTTON_HEIGHT - BUTTON_SPACING,
 
                                                  BUTTON_WIDTH + (BUTTON_WIDTH / 4),
                                                  BUTTON_HEIGHT,
@@ -104,14 +103,13 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         newPresetNameField.setChangedListener(presetName -> savePresetButton.active = !presetName.isBlank());
 
 
-        loadPresetButton = new ButtonWidget(centeredButtonStart,
-                                            presetSelectionListWidget.getHeight() + BUTTON_SPACING,
-
-                                            BUTTON_WIDTH,
-                                            BUTTON_HEIGHT,
-
-                                            Text.translatable("gui.keybind-presets.presets.load-button"),
-                                            this::loadPreset);
+        loadPresetButton = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.load-button"),
+                                                this::loadPreset)
+                                       .size(BUTTON_WIDTH,
+                                             BUTTON_HEIGHT)
+                                       .position(centeredButtonStart,
+                                                 presetSelectionListWidget.getHeight() + BUTTON_SPACING)
+                                       .build();
         loadPresetButton.active = false;
 
 
@@ -124,17 +122,15 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         addDrawableChild(newPresetNameField);
 
         // add the done button at the bottom of the screen for returning
-        addDrawableChild(new ButtonWidget(centeredButtonStart,
-                                          this.height - BOTTOM_OFFSET,
+        addDrawableChild(ButtonWidget.builder(ScreenTexts.DONE, // built in "Done" translation key
 
-                                          BUTTON_WIDTH,
-                                          BUTTON_HEIGHT,
-
-                                          ScreenTexts.DONE, // built in "Done" translation key
-
-                                          // when the button is clicked, return to the parent screen
-                                          button -> MinecraftClient.getInstance().setScreen(this.parent)));
-
+                                              // when the button is clicked, return to the parent screen
+                                              button -> MinecraftClient.getInstance().setScreen(this.parent))
+                                     .size(BUTTON_WIDTH,
+                                           BUTTON_HEIGHT)
+                                     .position(centeredButtonStart,
+                                               this.height - BOTTOM_OFFSET)
+                                     .build());
 
         super.init();
     }
@@ -154,7 +150,7 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         drawCenteredText(matrices, this.textRenderer, this.title, center, 8, 0xffffff);
 
         // draw the header for the new preset name text field
-        drawCenteredText(matrices, this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.y - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
+        drawCenteredText(matrices, this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.getY() - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
 
         super.render(matrices, mouseX, mouseY, delta);
     }

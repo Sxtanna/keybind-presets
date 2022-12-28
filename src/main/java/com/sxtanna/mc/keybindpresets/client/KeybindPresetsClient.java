@@ -120,33 +120,31 @@ public class KeybindPresetsClient implements ClientModInitializer {
 
 
         // move the reset button over to accommodate the presets button
-        reset.x = buttonsStart;
+        reset.setX(buttonsStart);
 
 
-        final var presetsButtonX = reset.x + reset.getWidth() + buttonsSpace;
-        final var presetsButtonY = reset.y;
+        final var presetsButtonX = reset.getX() + reset.getWidth() + buttonsSpace;
+        final var presetsButtonY = reset.getY();
 
         final var presetsButtonWidth  = buttonsWidth;
         final var presetsButtonHeight = reset.getHeight();
 
         final var presetsButtonTitle = Text.translatable("gui.keybind-presets.presets.button");
 
-        final var presets = new ButtonWidget(presetsButtonX,
-                                             presetsButtonY,
-
-                                             presetsButtonWidth,
-                                             presetsButtonHeight,
-
-                                             presetsButtonTitle,
-
-                                             // when the button is clicked, open the presets screen
-                                             button -> MinecraftClient.getInstance().setScreen(new KeybindPresetsScreen(screen)));
+        final var presets = ButtonWidget.builder(presetsButtonTitle,
+                                                 // when the button is clicked, open the presets screen
+                                                 button -> MinecraftClient.getInstance().setScreen(new KeybindPresetsScreen(screen)))
+                                        .size(presetsButtonWidth,
+                                              presetsButtonHeight)
+                                        .position(presetsButtonX,
+                                                  presetsButtonY)
+                                        .build();
 
         // add the presets button after the reset button
         buttons.add(buttons.indexOf(reset) + 1, presets);
 
         // move the done button over to accommodate the presets button
-        done.x = presets.x + presets.getWidth() + buttonsSpace;
+        done.setX(presets.getX() + presets.getWidth() + buttonsSpace);
     }
 
 }
