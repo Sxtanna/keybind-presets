@@ -26,8 +26,8 @@
     "keybind-presets.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.11",
+    "fabricloader": ">=0.14.19",
     "fabric": "*",
-    "minecraft": ">=1.19.3"
+    "minecraft": ">=1.19.4"
   }
 }

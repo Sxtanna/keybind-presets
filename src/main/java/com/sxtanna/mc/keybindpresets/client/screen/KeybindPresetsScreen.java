@@ -147,10 +147,10 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         presetSelectionListWidget.render(matrices, mouseX, mouseY, delta);
 
         // render the title of the screen at the top
-        drawCenteredText(matrices, this.textRenderer, this.title, center, 8, 0xffffff);
+        drawCenteredTextWithShadow(matrices, this.textRenderer, this.title, center, 8, 0xffffff);
 
         // draw the header for the new preset name text field
-        drawCenteredText(matrices, this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.getY() - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
+        drawCenteredTextWithShadow(matrices, this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.getY() - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
 
         super.render(matrices, mouseX, mouseY, delta);
     }
