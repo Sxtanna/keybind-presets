@@ -7,11 +7,12 @@ import com.sxtanna.mc.keybindpresets.client.screen.KeybindPresetsScreen;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
+import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.widget.AlwaysSelectedEntryListWidget;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.OrderedText;
 import net.minecraft.text.Text;
 
+import java.awt.Color;
 import java.nio.file.Path;
 import java.util.Collection;
 
@@ -137,7 +138,7 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
         }
 
         @Override
-        public void render(final MatrixStack matrices,
+        public void render(final DrawContext context,
 
                            final int index,
 
@@ -152,11 +153,11 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
 
                            final boolean hovered,
                            final float tickDelta) {
-            textRenderer.drawWithShadow(matrices,
-                                        orderedText,
-                                        (presetsScreen.width / 2f) - (textWidth / 2f),
-                                        y + 3,
-                                        0xffffff);
+            context.drawCenteredTextWithShadow(textRenderer,
+                                               orderedText,
+                                               (presetsScreen.width / 2),
+                                               y + 1,
+                                               !hovered && !isFocused() ? Color.LIGHT_GRAY.getRGB() : Color.WHITE.getRGB());
         }
 
     }

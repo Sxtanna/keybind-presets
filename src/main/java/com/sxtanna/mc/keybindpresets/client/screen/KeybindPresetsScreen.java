@@ -6,13 +6,13 @@ import com.sxtanna.mc.keybindpresets.client.KeybindPresetsClient;
 import com.sxtanna.mc.keybindpresets.client.screen.widget.PresetSelectionListWidget;
 
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.option.GameOptionsScreen;
 import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.TextFieldWidget;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.Text;
 
@@ -137,22 +137,19 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
 
 
     @Override
-    public void render(final MatrixStack matrices, final int mouseX, final int mouseY, final float delta) {
+    public void render(final DrawContext context, final int mouseX, final int mouseY, final float delta) {
+        super.render(context, mouseX, mouseY, delta);
+
         final var center = this.width / 2;
 
-        // render a fresh background
-        renderBackground(matrices);
-
         // render the presets widget
-        presetSelectionListWidget.render(matrices, mouseX, mouseY, delta);
+        presetSelectionListWidget.render(context, mouseX, mouseY, delta);
 
         // render the title of the screen at the top
-        drawCenteredTextWithShadow(matrices, this.textRenderer, this.title, center, 8, 0xffffff);
+        context.drawCenteredTextWithShadow(this.textRenderer, this.title, center, 8, 0xffffff);
 
         // draw the header for the new preset name text field
-        drawCenteredTextWithShadow(matrices, this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.getY() - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
-
-        super.render(matrices, mouseX, mouseY, delta);
+        context.drawCenteredTextWithShadow(this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.getY() - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
     }
 
 
