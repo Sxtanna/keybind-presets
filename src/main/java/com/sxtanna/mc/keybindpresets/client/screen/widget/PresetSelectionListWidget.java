@@ -115,16 +115,21 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
                 return false;
             }
 
-            if (PresetSelectionListWidget.this.getSelectedOrNull() == this) {
-                selectPreset(null);
-                presetsScreen.getLoadPresetButton().ifPresent(loadButton -> loadButton.active = false);
-            } else {
-                selectPreset(this);
-                presetsScreen.getLoadPresetButton().ifPresent(loadButton -> loadButton.active = true);
-            }
+            final var currentlySelected = PresetSelectionListWidget.this.getSelectedOrNull();
 
-            return true;
+            final var updatedToSelected = currentlySelected == PresetEntry.this ?
+                                          // if this entry is currently selected, unselect it
+                                          null :
+                                          // otherwise, select this entry
+                                          this;
 
+            PresetSelectionListWidget.this.setSelected(updatedToSelected);
+            PresetSelectionListWidget.this.setFocused(updatedToSelected);
+
+            presetsScreen.getLoadPresetButton()
+                         .ifPresent(loadButton -> loadButton.active = updatedToSelected != null);
+
+            return false;
         }
 
         @Override
