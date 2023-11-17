@@ -1,9 +1,9 @@
 {
   "libraries": [
     {
-      "name": "Gradle: org.jetbrains:annotations:24.0.0",
+      "name": "Gradle: org.jetbrains:annotations:24.0.1",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.0.0/69b8b443c437fdeefa8d20c18d257b94836a92b9/annotations-24.0.0.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.0.1/13c5c75c4206580aa4d683bffee658caae6c9f43/annotations-24.0.1.jar!/"
       ]
     },
     {
@@ -13,9 +13,9 @@
       ]
     },
     {
-      "name": "Gradle: net.fabricmc:sponge-mixin:0.12.4+mixin.0.8.5",
+      "name": "Gradle: net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar!/"
       ]
     },
     {
@@ -31,51 +31,51 @@
       ]
     },
     {
-      "name": "Gradle: org.ow2.asm:asm:9.4",
+      "name": "Gradle: org.ow2.asm:asm:9.5",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.4/b4e0e2d2e023aa317b7cfcfc916377ea348e07d1/asm-9.4.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.5/dc6ea1875f4d64fbc85e1691c95b96a3d8569c90/asm-9.5.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.ow2.asm:asm-analysis:9.4",
+      "name": "Gradle: org.ow2.asm:asm-analysis:9.5",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.4/a5fec9dfc039448d4fd098fbaffcaf55373b223/asm-analysis-9.4.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.5/490bacc77de7cbc0be1a30bb3471072d705be4a4/asm-analysis-9.5.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.ow2.asm:asm-commons:9.4",
+      "name": "Gradle: org.ow2.asm:asm-commons:9.5",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.4/8fc2810ddbcbbec0a8bbccb3f8eda58321839912/asm-commons-9.4.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.5/19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0/asm-commons-9.5.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.ow2.asm:asm-tree:9.4",
+      "name": "Gradle: org.ow2.asm:asm-tree:9.5",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.4/a99175a17d7fdc18cbcbd0e8ea6a5d276844190a/asm-tree-9.4.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.5/fd33c8b6373abaa675be407082fdfda35021254a/asm-tree-9.5.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.ow2.asm:asm-util:9.4",
+      "name": "Gradle: org.ow2.asm:asm-util:9.5",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.4/ab1e0a84b72561dbaf1ee260321e72148ebf4b19/asm-util-9.4.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.5/64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe/asm-util-9.5.jar!/"
       ]
     },
     {
-      "name": "Gradle: net.fabricmc:yarn:constants:1.19.4+build.2",
+      "name": "Gradle: net.fabricmc:yarn:constants:1.20.2+build.1",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.fabricmc/yarn/1.19.4+build.2/ab966230e058ccab792730613c7ef0a1a64fa46c/yarn-1.19.4+build.2-constants.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.fabricmc/yarn/1.20.2+build.1/4dafeb2b3e9ca7b3c012a93432886879f6979c2/yarn-1.20.2+build.1-constants.jar!/"
       ]
     },
     {
-      "name": "Gradle: com.github.oshi:oshi-core:6.2.2",
+      "name": "Gradle: com.github.oshi:oshi-core:6.4.5",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.5/943ba26de047eb6b28fff47f5ee939a34eb5fc8e/oshi-core-6.4.5.jar!/"
       ]
     },
     {
-      "name": "Gradle: com.google.code.gson:gson:2.10",
+      "name": "Gradle: com.google.code.gson:gson:2.10.1",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10/dd9b193aef96e973d5a11ab13cd17430c2e4306b/gson-2.10.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar!/"
       ]
     },
     {
@@ -85,21 +85,21 @@
       ]
     },
     {
-      "name": "Gradle: com.google.guava:guava:31.1-jre",
+      "name": "Gradle: com.google.guava:guava:32.1.2-jre",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/60458f877d055d0c9114d9e1a2efb737b4bc282c/guava-31.1-jre.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.1.2-jre/5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318/guava-32.1.2-jre.jar!/"
       ]
     },
     {
-      "name": "Gradle: com.ibm.icu:icu4j:71.1",
+      "name": "Gradle: com.ibm.icu:icu4j:73.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/71.1/9e7d3304c23f9ba5cb71915f7cce23231a57a445/icu4j-71.1.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/73.2/61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9/icu4j-73.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: com.mojang:authlib:3.18.38",
+      "name": "Gradle: com.mojang:authlib:5.0.47",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/authlib/3.18.38/16106b26bce62bda55bab42785b999e44d77ecb/authlib-3.18.38.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/authlib/5.0.47/ff7fd2e80a767f6c369fa2065f018ba21d153cbd/authlib-5.0.47.jar!/"
       ]
     },
     {
@@ -109,15 +109,15 @@
       ]
     },
     {
-      "name": "Gradle: com.mojang:brigadier:1.0.18",
+      "name": "Gradle: com.mojang:brigadier:1.1.8",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.0.18/c1ef1234282716483c92183f49bef47b1a89bfa9/brigadier-1.0.18.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.1.8/5244ce82c3337bba4a196a3ce858bfaecc74404a/brigadier-1.1.8.jar!/"
       ]
     },
     {
-      "name": "Gradle: com.mojang:datafixerupper:6.0.6",
+      "name": "Gradle: com.mojang:datafixerupper:6.0.8",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/6.0.6/e38e20946530646e866db03b2b192883d0ea6e84/datafixerupper-6.0.6.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/6.0.8/3ba4a30557a9b057760af4011f909ba619fc5125/datafixerupper-6.0.8.jar!/"
       ]
     },
     {
@@ -133,27 +133,21 @@
       ]
     },
     {
-      "name": "Gradle: com.mojang:text2speech:1.13.9",
+      "name": "Gradle: com.mojang:text2speech:1.17.9",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.13.9/5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59/text2speech-1.13.9.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.17.9/3cad216e3a7f0c19b4b394388bc9ffc446f13b14/text2speech-1.17.9.jar!/"
       ]
     },
     {
-      "name": "Gradle: com.mojang:text2speech:natives-linux:1.13.9",
+      "name": "Gradle: commons-codec:commons-codec:1.16.0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.13.9/6c63ecb3b6408dcfdde6440c9ee62c060542af33/text2speech-1.13.9-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.16.0/4e3eb3d79888d76b54e28b350915b5dc3919c9de/commons-codec-1.16.0.jar!/"
       ]
     },
     {
-      "name": "Gradle: commons-codec:commons-codec:1.15",
+      "name": "Gradle: commons-io:commons-io:2.13.0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar!/"
-      ]
-    },
-    {
-      "name": "Gradle: commons-io:commons-io:2.11.0",
-      "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.13.0/8bb2bc9b4df17e2411533a0708a69f983bf5e83b/commons-io-2.13.0.jar!/"
       ]
     },
     {
@@ -163,81 +157,81 @@
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-buffer:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-buffer:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.82.Final/a544270cf1ae8b8077082f5036436a9a9971ea71/netty-buffer-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.97.Final/f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f/netty-buffer-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-codec:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-codec:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.82.Final/b77200379acb345a9ffdece1c605e591ac3e4e0a/netty-codec-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.97.Final/384ba4d75670befbedb45c4d3b497a93639c206d/netty-codec-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-common:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-common:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.82.Final/22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3/netty-common-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.97.Final/7cceacaf11df8dc63f23d0fb58e9d4640fc88404/netty-common-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-handler:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-handler:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.82.Final/644041d1fa96a5d3130a29e8978630d716d76e38/netty-handler-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.97.Final/abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36/netty-handler-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-resolver:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-resolver:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.82.Final/38f665ae8dcd29032eea31245ba7806bed2e0fa8/netty-resolver-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.97.Final/cec8348108dc76c47cf87c669d514be52c922144/netty-resolver-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-transport-classes-epoll:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-transport-classes-epoll:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.82.Final/e7c7dd18deac93105797f30057c912651ea76521/netty-transport-classes-epoll-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.97.Final/795da37ded759e862457a82d9d92c4d39ce8ecee/netty-transport-classes-epoll-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.82.Final/476409d6255001ca53a55f65b01c13822f8dc93a/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.97.Final/5514744c588190ffda076b35a9b8c9f24946a960/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.82.Final/c7350a71920f3ae9142945e25fed4846cce53374/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.97.Final/54188f271e388e7f313aea995e82f58ce2cdb809/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-transport-native-unix-common:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-transport-native-unix-common:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.82.Final/3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce/netty-transport-native-unix-common-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.97.Final/d469d84265ab70095b01b40886cabdd433b6e664/netty-transport-native-unix-common-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: io.netty:netty-transport:4.1.82.Final",
+      "name": "Gradle: io.netty:netty-transport:4.1.97.Final",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.82.Final/e431a218d91acb6476ccad5f5aafde50aa3945ca/netty-transport-4.1.82.Final.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.97.Final/f37380d23c9bb079bc702910833b2fd532c9abd0/netty-transport-4.1.97.Final.jar!/"
       ]
     },
     {
-      "name": "Gradle: it.unimi.dsi:fastutil:8.5.9",
+      "name": "Gradle: it.unimi.dsi:fastutil:8.5.12",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.9/bb7ea75ecdb216654237830b3a96d87ad91f8cc5/fastutil-8.5.9.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/8.5.12/c24946d46824bd528054bface3231d2ecb7e95e8/fastutil-8.5.12.jar!/"
       ]
     },
     {
-      "name": "Gradle: net.java.dev.jna:jna-platform:5.12.1",
+      "name": "Gradle: net.java.dev.jna:jna-platform:5.13.0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.12.1/97406a297c852f4a41e688a176ec675f72e8329/jna-platform-5.12.1.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.13.0/88e9a306715e9379f3122415ef4ae759a352640d/jna-platform-5.13.0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net.java.dev.jna:jna:5.12.1",
+      "name": "Gradle: net.java.dev.jna:jna:5.13.0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.12.1/b1e93a735caea94f503e95e6fe79bf9cdc1e985d/jna-5.12.1.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.13.0/1200e7ebeedbe0d10062093f32925a912020e747/jna-5.13.0.jar!/"
       ]
     },
     {
@@ -247,15 +241,15 @@
       ]
     },
     {
-      "name": "Gradle: org.apache.commons:commons-compress:1.21",
+      "name": "Gradle: org.apache.commons:commons-compress:1.22",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.21/4ec95b60d4e86b5c95a0e919cb172a0af98011ef/commons-compress-1.21.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.22/691a8b4e6cf4248c3bc72c8b719337d5cb7359fa/commons-compress-1.22.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.apache.commons:commons-lang3:3.12.0",
+      "name": "Gradle: org.apache.commons:commons-lang3:3.13.0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.13.0/b7263237aa89c1f99b327197c41d0669707a462e/commons-lang3-3.13.0.jar!/"
       ]
     },
     {
@@ -265,9 +259,9 @@
       ]
     },
     {
-      "name": "Gradle: org.apache.httpcomponents:httpcore:4.4.15",
+      "name": "Gradle: org.apache.httpcomponents:httpcore:4.4.16",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.15/7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d/httpcore-4.4.15.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.16/51cf043c87253c9f58b539c9f7e44c8894223850/httpcore-4.4.16.jar!/"
       ]
     },
     {
@@ -295,362 +289,374 @@
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-glfw:3.3.1",
+      "name": "Gradle: org.lwjgl:lwjgl-glfw:3.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/cbac1b8d30cb4795149c1ef540f912671a8616d0/lwjgl-glfw-3.3.1.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.2/757920418805fb90bfebb3d46b1d9e7669fca2eb/lwjgl-glfw-3.3.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.1",
+      "name": "Gradle: org.lwjgl:lwjgl-jemalloc:3.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/81716978214ecbda15050ca394b06ef61501a49e/lwjgl-glfw-3.3.1-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.2/877e17e39ebcd58a9c956dc3b5b777813de0873a/lwjgl-jemalloc-3.3.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-jemalloc:3.3.1",
+      "name": "Gradle: org.lwjgl:lwjgl-openal:3.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.1/a817bcf213db49f710603677457567c37d53e103/lwjgl-jemalloc-3.3.1.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.2/ae5357ed6d934546d3533993ea84c0cfb75eed95/lwjgl-openal-3.3.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.1",
+      "name": "Gradle: org.lwjgl:lwjgl-opengl:3.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.1/33dbb017b6ed6b25f993ad9d56741a49e7937718/lwjgl-jemalloc-3.3.1-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/ee8e95be0b438602038bc1f02dc5e3d011b1b216/lwjgl-opengl-3.3.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-openal:3.3.1",
+      "name": "Gradle: org.lwjgl:lwjgl-stb:3.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/2623a6b8ae1dfcd880738656a9f0243d2e6840bd/lwjgl-openal-3.3.1.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.2/a2550795014d622b686e9caac50b14baa87d2c70/lwjgl-stb-3.3.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.1",
+      "name": "Gradle: org.lwjgl:lwjgl-tinyfd:3.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/f906b6439f6daa66001182ea7727e3467a93681b/lwjgl-openal-3.3.1-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.2/9f65c248dd77934105274fcf8351abb75b34327c/lwjgl-tinyfd-3.3.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-opengl:3.3.1",
+      "name": "Gradle: org.lwjgl:lwjgl:3.3.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.1/831a5533a21a5f4f81bbc51bb13e9899319b5411/lwjgl-opengl-3.3.1.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/4421d94af68e35dcaa31737a6fc59136a1e61b94/lwjgl-3.3.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.1",
+      "name": "Gradle: org.slf4j:slf4j-api:2.0.7",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.1/ab9ab6fde3743e3550fa5d46d785ecb45b047d99/lwjgl-opengl-3.3.1-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.7/41eb7184ea9d556f23e18b5cb99cad1f8581fc00/slf4j-api-2.0.7.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-stb:3.3.1",
+      "name": "Gradle: net.minecraft:minecraft-merged-1f338b2c9f:1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.1/b119297cf8ed01f247abe8685857f8e7fcf5980f/lwjgl-stb-3.3.1.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-1f338b2c9f/1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2/minecraft-merged-1f338b2c9f-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.1",
+      "name": "Gradle: net.fabricmc:fabric-loader:0.14.22",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.1/3ee7aec8686e52867677110415566a5342a80230/lwjgl-stb-3.3.1-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.22/9dd26439963a78e6ff7be3614c2151a50f9254a3/fabric-loader-0.14.22.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-tinyfd:3.3.1",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api:0.89.1+1.20.2",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/ff1914111ef2e3e0110ef2dabc8d8cdaad82347/lwjgl-tinyfd-3.3.1.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-api/0.89.1+1.20.2/fabric-api-0.89.1+1.20.2.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.1",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.3.7+109a65e5a0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/a35110b9471bea8cde826ab297550ee8c22f5035/lwjgl-tinyfd-3.3.1-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/3.3.7+109a65e5a0/fabric-transfer-api-v1-3.3.7+109a65e5a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl:3.3.1",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.40+fce67b32a0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.1/ae58664f88e18a9bb2c77b063833ca7aaec484cb/lwjgl-3.3.1.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.6.40+fce67b32a0/fabric-api-lookup-api-v1-1.6.40+fce67b32a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.lwjgl:lwjgl:natives-linux:3.3.1",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.42+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.1/1de885aba434f934201b99f2f1afb142036ac189/lwjgl-3.3.1-natives-linux.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.42+f4b7e424a0/fabric-blockrenderlayer-v1-1.1.42+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: org.slf4j:slf4j-api:2.0.1",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.1.3+86b12645a0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.1/f48d81adce2abf5ad3cfe463df517952749e03bc/slf4j-api-2.0.1.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+86b12645a0/fabric-client-tags-api-v1-1.1.3+86b12645a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net.minecraft:minecraft-merged-project-root:1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-command-api-v1:1.2.35+f71b366fa0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2/minecraft-merged-project-root-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-command-api-v1/1.2.35+f71b366fa0/fabric-command-api-v1-1.2.35+f71b366fa0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net.fabricmc:fabric-loader:0.14.19",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-commands-v0:0.2.52+df3654b3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.19/4e9206c115a5493469a8d9ff97f3b3fc6c753c65/fabric-loader-0.14.19.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-commands-v0/0.2.52+df3654b3a0/fabric-commands-v0-0.2.52+df3654b3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api:0.79.0+1.19.4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.14+86b12645a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-api/0.79.0+1.19.4/fabric-api-0.79.0+1.19.4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-command-api-v2/2.2.14+86b12645a0/fabric-command-api-v2-2.2.14+86b12645a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.1.1+da9bb835f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:5.0.3+0ba8e9cea0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-transfer-api-v1/3.1.1+da9bb835f4/fabric-transfer-api-v1-3.1.1+da9bb835f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/5.0.3+0ba8e9cea0/fabric-content-registries-v0-5.0.3+0ba8e9cea0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.25+49abcf7ef4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.6+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-api-lookup-api-v1/1.6.25+49abcf7ef4/fabric-api-lookup-api-v1-1.6.25+49abcf7ef4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1/1.5.6+f4b7e424a0/fabric-convention-tags-v1-1.5.6+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.34+c2e6f674f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:13.1.0+bbae80faa0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-blockrenderlayer-v1/1.1.34+c2e6f674f4/fabric-blockrenderlayer-v1-1.1.34+c2e6f674f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/13.1.0+bbae80faa0/fabric-data-generation-api-v1-13.1.0+bbae80faa0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.0.15+1134c5b8f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.55+b1229956a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.0.15+1134c5b8f4/fabric-client-tags-api-v1-1.0.15+1134c5b8f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.55+b1229956a0/fabric-dimensions-v1-2.1.55+b1229956a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.6+e719b857f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.24+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-command-api-v2/2.2.6+e719b857f4/fabric-command-api-v2-2.2.6+e719b857f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.5.24+f4b7e424a0/fabric-entity-events-v1-1.5.24+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:3.5.9+ae0966baf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.6.8+daef22a2a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-content-registries-v0/3.5.9+ae0966baf4/fabric-content-registries-v0-3.5.9+ae0966baf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.6.8+daef22a2a0/fabric-events-interaction-v0-0.6.8+daef22a2a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.4.1+9a7c5daaf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.14+86b12645a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-convention-tags-v1/1.4.1+9a7c5daaf4/fabric-convention-tags-v1-1.4.1+9a7c5daaf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.2.14+86b12645a0/fabric-gametest-api-v1-1.2.14+86b12645a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:11.4.0+6cebf059f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-events-lifecycle-v0:0.2.67+df3654b3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-data-generation-api-v1/11.4.0+6cebf059f4/fabric-data-generation-api-v1-11.4.0+6cebf059f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.67+df3654b3a0/fabric-events-lifecycle-v0-0.2.67+df3654b3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.45+7f87f8faf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.31+43511215a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-dimensions-v1/2.1.45+7f87f8faf4/fabric-dimensions-v1-2.1.45+7f87f8faf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-item-api-v1/2.1.31+43511215a0/fabric-item-api-v1-2.1.31+43511215a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.13+e45f7c65f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:4.0.12+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.5.13+e45f7c65f4/fabric-entity-events-v1-1.5.13+e45f7c65f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1/4.0.12+f4b7e424a0/fabric-item-group-api-v1-4.0.12+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.4.43+a1ccd7bff4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.53+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-events-interaction-v0/0.4.43+a1ccd7bff4/fabric-events-interaction-v0-0.4.43+a1ccd7bff4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/2.1.53+f4b7e424a0/fabric-mining-level-api-v1-2.1.53+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.4+ae0966baf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.25+3bafade3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.2.4+ae0966baf4/fabric-gametest-api-v1-1.2.4+ae0966baf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.25+3bafade3a0/fabric-lifecycle-events-v1-2.2.25+3bafade3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.17+09a3510cf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:2.0.1+0ba8e9cea0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-item-api-v1/2.1.17+09a3510cf4/fabric-item-api-v1-2.1.17+09a3510cf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-loot-api-v2/2.0.1+0ba8e9cea0/fabric-loot-api-v2-2.0.1+0ba8e9cea0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:3.0.5+043f9acff4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-message-api-v1:6.0.0+fce67b32a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-item-group-api-v1/3.0.5+043f9acff4/fabric-item-group-api-v1-3.0.5+043f9acff4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-message-api-v1/6.0.0+fce67b32a0/fabric-message-api-v1-6.0.0+fce67b32a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.39+49abcf7ef4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-models-v0:0.4.3+9386d8a7a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-mining-level-api-v1/2.1.39+49abcf7ef4/fabric-mining-level-api-v1-2.1.39+49abcf7ef4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-models-v0/0.4.3+9386d8a7a0/fabric-models-v0-0.4.3+9386d8a7a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.15+5da15ca1f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-model-loading-api-v1:1.0.4+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.15+5da15ca1f4/fabric-lifecycle-events-v1-2.2.15+5da15ca1f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.4+f4b7e424a0/fabric-model-loading-api-v1-1.0.4+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.27+75e98211f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:2.0.3+43511215a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-loot-api-v2/1.1.27+75e98211f4/fabric-loot-api-v2-1.1.27+75e98211f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1/2.0.3+43511215a0/fabric-recipe-api-v1-2.0.3+43511215a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-message-api-v1:5.1.1+1ee8be40f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:4.0.1+34a3e0e2a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-message-api-v1/5.1.1+1ee8be40f4/fabric-message-api-v1-5.1.1+1ee8be40f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/4.0.1+34a3e0e2a0/fabric-registry-sync-v0-4.0.1+34a3e0e2a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-models-v0:0.3.30+11ba9c3bf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.36+86b12645a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-models-v0/0.3.30+11ba9c3bf4/fabric-models-v0-0.3.30+11ba9c3bf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.3.36+86b12645a0/fabric-screen-handler-api-v1-1.3.36+86b12645a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:1.0.8+a1ccd7bff4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-containers-v0:0.1.70+df3654b3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-recipe-api-v1/1.0.8+a1ccd7bff4/fabric-recipe-api-v1-1.0.8+a1ccd7bff4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-containers-v0/0.1.70+df3654b3a0/fabric-containers-v0-0.1.70+df3654b3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:2.2.0+670e8ac6f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:3.0.6+69e331e3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/2.2.0+670e8ac6f4/fabric-registry-sync-v0-2.2.0+670e8ac6f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/3.0.6+69e331e3a0/fabric-networking-api-v1-3.0.6+69e331e3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.20+5da15ca1f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:12.1.0+b1b4f7b0a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-screen-handler-api-v1/1.3.20+5da15ca1f4/fabric-screen-handler-api-v1-1.3.20+5da15ca1f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/12.1.0+b1b4f7b0a0/fabric-object-builder-api-v1-12.1.0+b1b4f7b0a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.3.1+a6f3ccfaf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.1.3+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-networking-api-v1/1.3.1+a6f3ccfaf4/fabric-networking-api-v1-1.3.1+a6f3ccfaf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.1.3+f4b7e424a0/fabric-particles-v1-1.1.3+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:7.0.3+63b515f4f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.5.0+2034447ca0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-object-builder-api-v1/7.0.3+63b515f4f4/fabric-object-builder-api-v1-7.0.3+63b515f4f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/1.5.0+2034447ca0/fabric-renderer-indigo-1.5.0+2034447ca0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.0.23+f1e4495bf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:3.2.0+2034447ca0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.0.23+f1e4495bf4/fabric-particles-v1-1.0.23+f1e4495bf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/3.2.0+2034447ca0/fabric-renderer-api-v1-3.2.0+2034447ca0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.1.1+81e8c576f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.29+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-renderer-indigo/1.1.1+81e8c576f4/fabric-renderer-indigo-1.1.1+81e8c576f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/3.0.29+f4b7e424a0/fabric-rendering-fluids-v1-3.0.29+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:2.2.5+81e8c576f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-registries-v1:3.2.47+df3654b3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-renderer-api-v1/2.2.5+81e8c576f4/fabric-renderer-api-v1-2.2.5+81e8c576f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-renderer-registries-v1/3.2.47+df3654b3a0/fabric-renderer-registries-v1-3.2.47+df3654b3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.28+afca2f3ef4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-v0:1.1.50+df3654b3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.28+afca2f3ef4/fabric-rendering-data-attachment-v1-0.3.28+afca2f3ef4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-rendering-v0/1.1.50+df3654b3a0/fabric-rendering-v0-1.1.50+df3654b3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.21+f1e4495bf4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-v1:3.0.9+86b12645a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-rendering-fluids-v1/3.0.21+f1e4495bf4/fabric-rendering-fluids-v1-3.0.21+f1e4495bf4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-rendering-v1/3.0.9+86b12645a0/fabric-rendering-v1-3.0.9+86b12645a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-v1:2.1.1+8f878217f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:2.0.10+0ba8e9cea0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-rendering-v1/2.1.1+8f878217f4/fabric-rendering-v1-2.1.1+8f878217f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/2.0.10+0ba8e9cea0/fabric-screen-api-v1-2.0.10+0ba8e9cea0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:1.0.45+8c25edb4f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.32+fce67b32a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/1.0.45+8c25edb4f4/fabric-screen-api-v1-1.0.45+8c25edb4f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.32+fce67b32a0/fabric-api-base-0.4.32+fce67b32a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.24+9ff28bcef4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.11+86b12645a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-api-base/0.4.24+9ff28bcef4/fabric-api-base-0.4.24+9ff28bcef4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-biome-api-v1/13.0.11+86b12645a0/fabric-biome-api-v1-13.0.11+86b12645a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.7+348a9c64f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.11+73761d2ea0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-biome-api-v1/13.0.7+348a9c64f4/fabric-biome-api-v1-13.0.7+348a9c64f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-block-api-v1/1.0.11+73761d2ea0/fabric-block-api-v1-1.0.11+73761d2ea0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.6+e022e5d1f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.38+73761d2ea0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-block-api-v1/1.0.6+e022e5d1f4/fabric-block-api-v1-1.0.6+e022e5d1f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-rendering-data-attachment-v1/0.3.38+73761d2ea0/fabric-rendering-data-attachment-v1-0.3.38+73761d2ea0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.15+aeb40ebef4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-block-view-api-v2:1.0.0+73761d2ea0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1/0.2.15+aeb40ebef4/fabric-crash-report-info-v1-0.2.15+aeb40ebef4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-block-view-api-v2/1.0.0+73761d2ea0/fabric-block-view-api-v2-1.0.0+73761d2ea0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.33+a1ccd7bff4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.19+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1/1.0.33+a1ccd7bff4/fabric-game-rule-api-v1-1.0.33+a1ccd7bff4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-crash-report-info-v1/0.2.19+f4b7e424a0/fabric-crash-report-info-v1-0.2.19+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.33+c477957ef4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.39+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1/1.0.33+c477957ef4/fabric-key-binding-api-v1-1.0.33+c477957ef4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-game-rule-api-v1/1.0.39+f4b7e424a0/fabric-game-rule-api-v1-1.0.39+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.1+e6c7d4eef4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-keybindings-v0:0.2.35+df3654b3a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1/2.3.1+e6c7d4eef4/fabric-resource-conditions-api-v1-2.3.1+e6c7d4eef4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-keybindings-v0/0.2.35+df3654b3a0/fabric-keybindings-v0-0.2.35+df3654b3a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.2+1e1fb126f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.37+f4b7e424a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.11.2+1e1fb126f4/fabric-resource-loader-v0-0.11.2+1e1fb126f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-key-binding-api-v1/1.0.37+f4b7e424a0/fabric-key-binding-api-v1-1.0.37+f4b7e424a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.9+75e98211f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.8+43511215a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-sound-api-v1/1.0.9+75e98211f4/fabric-sound-api-v1-1.0.9+75e98211f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1/2.3.8+43511215a0/fabric-resource-conditions-api-v1-2.3.8+43511215a0.jar!/"
       ]
     },
     {
-      "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:3.0.3+63b515f4f4",
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.10+86b12645a0",
       "roots": [
-        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/3.0.3+63b515f4f4/fabric-transitive-access-wideners-v1-3.0.3+63b515f4f4.jar!/"
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-resource-loader-v0/0.11.10+86b12645a0/fabric-resource-loader-v0-0.11.10+86b12645a0.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.13+f4b7e424a0",
+      "roots": [
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-sound-api-v1/1.0.13+f4b7e424a0/fabric-sound-api-v1-1.0.13+f4b7e424a0.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:5.0.2+fce67b32a0",
+      "roots": [
+        "jar://$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1/5.0.2+fce67b32a0/fabric-transitive-access-wideners-v1-5.0.2+fce67b32a0.jar!/"
       ]
     },
     {
       "roots": [
-        "jar://$PROJECT_DIR$/../cache/gradle/caches/fabric-loom/1.19.4/net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2/mappings.jar!/"
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/fabric-loom/1.20.2/net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2/mappings.jar!/"
       ]
     },
     {
@@ -663,6 +669,48 @@
       "name": "Gradle: net.minecrell:terminalconsoleappender:1.2.0",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/net.minecrell/terminalconsoleappender/1.2.0/96d02cd3b384ff015a8fef4223bcb4ccf1717c95/terminalconsoleappender-1.2.0.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.2",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.2/766bb0e8e829598b1c8052fd8173c62af741c52/lwjgl-glfw-3.3.2-natives-linux.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.2",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.2/2bc33176cdfabf34a63df154b80914e8f433316b/lwjgl-jemalloc-3.3.2-natives-linux.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.2",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.2/650981780b8bbfb3ce43657b22ec8e77bfb1f37a/lwjgl-openal-3.3.2-natives-linux.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.2",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.2/b8368430ef0d91a5acbc6fbfa47b20c3ec083aec/lwjgl-opengl-3.3.2-natives-linux.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.2",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.2/5c987f43b342d722b54970159040af76f1c87403/lwjgl-stb-3.3.2-natives-linux.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.2",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.2/5d27fc67172b3fcd8400d61a7cfb75da881f609/lwjgl-tinyfd-3.3.2-natives-linux.jar!/"
+      ]
+    },
+    {
+      "name": "Gradle: org.lwjgl:lwjgl:natives-linux:3.3.2",
+      "roots": [
+        "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.2/767684973f259d97e7dc66a125eb153986f177e7/lwjgl-3.3.2-natives-linux.jar!/"
       ]
     },
     {

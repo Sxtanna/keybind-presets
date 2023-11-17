@@ -45,7 +45,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: net.fabricmc:sponge-mixin:0.12.4+mixin.0.8.5",
+          "name": "Gradle: net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
           "type": "Library"
         },
         {
@@ -57,31 +57,31 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm:9.4",
+          "name": "Gradle: org.ow2.asm:asm:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-analysis:9.4",
+          "name": "Gradle: org.ow2.asm:asm-analysis:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-commons:9.4",
+          "name": "Gradle: org.ow2.asm:asm-commons:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-tree:9.4",
+          "name": "Gradle: org.ow2.asm:asm-tree:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-util:9.4",
+          "name": "Gradle: org.ow2.asm:asm-util:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.github.oshi:oshi-core:6.2.2",
+          "name": "Gradle: com.github.oshi:oshi-core:6.4.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.google.code.gson:gson:2.10",
+          "name": "Gradle: com.google.code.gson:gson:2.10.1",
           "type": "Library"
         },
         {
@@ -89,15 +89,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.google.guava:guava:31.1-jre",
+          "name": "Gradle: com.google.guava:guava:32.1.2-jre",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.ibm.icu:icu4j:71.1",
+          "name": "Gradle: com.ibm.icu:icu4j:73.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:authlib:3.18.38",
+          "name": "Gradle: com.mojang:authlib:5.0.47",
           "type": "Library"
         },
         {
@@ -105,11 +105,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:brigadier:1.0.18",
+          "name": "Gradle: com.mojang:brigadier:1.1.8",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:datafixerupper:6.0.6",
+          "name": "Gradle: com.mojang:datafixerupper:6.0.8",
           "type": "Library"
         },
         {
@@ -121,19 +121,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:text2speech:1.13.9",
+          "name": "Gradle: com.mojang:text2speech:1.17.9",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:text2speech:natives-linux:1.13.9",
+          "name": "Gradle: commons-codec:commons-codec:1.16.0",
           "type": "Library"
         },
         {
-          "name": "Gradle: commons-codec:commons-codec:1.15",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: commons-io:commons-io:2.11.0",
+          "name": "Gradle: commons-io:commons-io:2.13.0",
           "type": "Library"
         },
         {
@@ -141,55 +137,55 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-buffer:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-buffer:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-codec:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-codec:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-common:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-common:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-handler:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-handler:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-resolver:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-resolver:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-classes-epoll:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-classes-epoll:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-native-unix-common:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-native-unix-common:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: it.unimi.dsi:fastutil:8.5.9",
+          "name": "Gradle: it.unimi.dsi:fastutil:8.5.12",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.java.dev.jna:jna-platform:5.12.1",
+          "name": "Gradle: net.java.dev.jna:jna-platform:5.13.0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.java.dev.jna:jna:5.12.1",
+          "name": "Gradle: net.java.dev.jna:jna:5.13.0",
           "type": "Library"
         },
         {
@@ -197,11 +193,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.apache.commons:commons-compress:1.21",
+          "name": "Gradle: org.apache.commons:commons-compress:1.22",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.apache.commons:commons-lang3:3.12.0",
+          "name": "Gradle: org.apache.commons:commons-lang3:3.13.0",
           "type": "Library"
         },
         {
@@ -209,7 +205,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.apache.httpcomponents:httpcore:4.4.15",
+          "name": "Gradle: org.apache.httpcomponents:httpcore:4.4.16",
           "type": "Library"
         },
         {
@@ -229,247 +225,255 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-glfw:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-glfw:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-openal:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-opengl:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-openal:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-stb:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-opengl:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.1",
+          "name": "Gradle: org.slf4j:slf4j-api:2.0.7",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-stb:3.3.1",
+          "name": "Gradle: net.minecraft:minecraft-merged-1f338b2c9f:1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.1",
+          "name": "Gradle: net.fabricmc:fabric-loader:0.14.22",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api:0.89.1+1.20.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.3.7+109a65e5a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.40+fce67b32a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl:natives-linux:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.42+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.slf4j:slf4j-api:2.0.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.1.3+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.minecraft:minecraft-merged-project-root:1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-command-api-v1:1.2.35+f71b366fa0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.fabricmc:fabric-loader:0.14.19",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-commands-v0:0.2.52+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api:0.79.0+1.19.4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.14+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.1.1+da9bb835f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:5.0.3+0ba8e9cea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.25+49abcf7ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.6+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.34+c2e6f674f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:13.1.0+bbae80faa0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.0.15+1134c5b8f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.55+b1229956a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.6+e719b857f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.24+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:3.5.9+ae0966baf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.6.8+daef22a2a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.4.1+9a7c5daaf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.14+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:11.4.0+6cebf059f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-events-lifecycle-v0:0.2.67+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.45+7f87f8faf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.31+43511215a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.13+e45f7c65f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:4.0.12+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.4.43+a1ccd7bff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.53+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.4+ae0966baf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.25+3bafade3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.17+09a3510cf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:2.0.1+0ba8e9cea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:3.0.5+043f9acff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-message-api-v1:6.0.0+fce67b32a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.39+49abcf7ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-models-v0:0.4.3+9386d8a7a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.15+5da15ca1f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-model-loading-api-v1:1.0.4+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.27+75e98211f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:2.0.3+43511215a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-message-api-v1:5.1.1+1ee8be40f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:4.0.1+34a3e0e2a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-models-v0:0.3.30+11ba9c3bf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.36+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:1.0.8+a1ccd7bff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-containers-v0:0.1.70+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:2.2.0+670e8ac6f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:3.0.6+69e331e3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.20+5da15ca1f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:12.1.0+b1b4f7b0a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.3.1+a6f3ccfaf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.1.3+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:7.0.3+63b515f4f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.5.0+2034447ca0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.0.23+f1e4495bf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:3.2.0+2034447ca0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.1.1+81e8c576f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.29+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:2.2.5+81e8c576f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-registries-v1:3.2.47+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.28+afca2f3ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-v0:1.1.50+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.21+f1e4495bf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-v1:3.0.9+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-v1:2.1.1+8f878217f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:2.0.10+0ba8e9cea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:1.0.45+8c25edb4f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.32+fce67b32a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.24+9ff28bcef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.11+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.7+348a9c64f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.11+73761d2ea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.6+e022e5d1f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.38+73761d2ea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.15+aeb40ebef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-block-view-api-v2:1.0.0+73761d2ea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.33+a1ccd7bff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.19+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.33+c477957ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.39+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.1+e6c7d4eef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-keybindings-v0:0.2.35+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.2+1e1fb126f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.37+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.9+75e98211f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.8+43511215a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:3.0.3+63b515f4f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.10+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains:annotations:24.0.0",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.13+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "/data/cache/gradle/caches/fabric-loom/1.19.4/net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2/mappings.jar",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:5.0.2+fce67b32a0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains:annotations:24.0.1",
+          "type": "Library"
+        },
+        {
+          "name": "/data/cache/gradle/caches/fabric-loom/1.20.2/net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2/mappings.jar",
           "type": "Library"
         },
         {
@@ -478,6 +482,34 @@
         },
         {
           "name": "Gradle: net.minecrell:terminalconsoleappender:1.2.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl:natives-linux:3.3.2",
           "type": "Library"
         },
         {
@@ -519,7 +551,7 @@
           "type": "Own sources"
         },
         {
-          "name": "Gradle: org.jetbrains:annotations:24.0.0",
+          "name": "Gradle: org.jetbrains:annotations:24.0.1",
           "type": "Library"
         },
         {
@@ -527,7 +559,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: net.fabricmc:sponge-mixin:0.12.4+mixin.0.8.5",
+          "name": "Gradle: net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
           "type": "Library"
         },
         {
@@ -539,35 +571,35 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm:9.4",
+          "name": "Gradle: org.ow2.asm:asm:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-analysis:9.4",
+          "name": "Gradle: org.ow2.asm:asm-analysis:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-commons:9.4",
+          "name": "Gradle: org.ow2.asm:asm-commons:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-tree:9.4",
+          "name": "Gradle: org.ow2.asm:asm-tree:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.ow2.asm:asm-util:9.4",
+          "name": "Gradle: org.ow2.asm:asm-util:9.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.fabricmc:yarn:constants:1.19.4+build.2",
+          "name": "Gradle: net.fabricmc:yarn:constants:1.20.2+build.1",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.github.oshi:oshi-core:6.2.2",
+          "name": "Gradle: com.github.oshi:oshi-core:6.4.5",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.google.code.gson:gson:2.10",
+          "name": "Gradle: com.google.code.gson:gson:2.10.1",
           "type": "Library"
         },
         {
@@ -575,15 +607,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.google.guava:guava:31.1-jre",
+          "name": "Gradle: com.google.guava:guava:32.1.2-jre",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.ibm.icu:icu4j:71.1",
+          "name": "Gradle: com.ibm.icu:icu4j:73.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:authlib:3.18.38",
+          "name": "Gradle: com.mojang:authlib:5.0.47",
           "type": "Library"
         },
         {
@@ -591,11 +623,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:brigadier:1.0.18",
+          "name": "Gradle: com.mojang:brigadier:1.1.8",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:datafixerupper:6.0.6",
+          "name": "Gradle: com.mojang:datafixerupper:6.0.8",
           "type": "Library"
         },
         {
@@ -607,19 +639,15 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:text2speech:1.13.9",
+          "name": "Gradle: com.mojang:text2speech:1.17.9",
           "type": "Library"
         },
         {
-          "name": "Gradle: com.mojang:text2speech:natives-linux:1.13.9",
+          "name": "Gradle: commons-codec:commons-codec:1.16.0",
           "type": "Library"
         },
         {
-          "name": "Gradle: commons-codec:commons-codec:1.15",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: commons-io:commons-io:2.11.0",
+          "name": "Gradle: commons-io:commons-io:2.13.0",
           "type": "Library"
         },
         {
@@ -627,55 +655,55 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-buffer:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-buffer:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-codec:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-codec:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-common:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-common:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-handler:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-handler:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-resolver:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-resolver:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-classes-epoll:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-classes-epoll:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-aarch_64:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport-native-unix-common:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport-native-unix-common:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: io.netty:netty-transport:4.1.82.Final",
+          "name": "Gradle: io.netty:netty-transport:4.1.97.Final",
           "type": "Library"
         },
         {
-          "name": "Gradle: it.unimi.dsi:fastutil:8.5.9",
+          "name": "Gradle: it.unimi.dsi:fastutil:8.5.12",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.java.dev.jna:jna-platform:5.12.1",
+          "name": "Gradle: net.java.dev.jna:jna-platform:5.13.0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.java.dev.jna:jna:5.12.1",
+          "name": "Gradle: net.java.dev.jna:jna:5.13.0",
           "type": "Library"
         },
         {
@@ -683,11 +711,11 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.apache.commons:commons-compress:1.21",
+          "name": "Gradle: org.apache.commons:commons-compress:1.22",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.apache.commons:commons-lang3:3.12.0",
+          "name": "Gradle: org.apache.commons:commons-lang3:3.13.0",
           "type": "Library"
         },
         {
@@ -695,7 +723,7 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.apache.httpcomponents:httpcore:4.4.15",
+          "name": "Gradle: org.apache.httpcomponents:httpcore:4.4.16",
           "type": "Library"
         },
         {
@@ -715,243 +743,251 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-glfw:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-glfw:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-openal:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-opengl:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-openal:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-stb:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-opengl:3.3.1",
+          "name": "Gradle: org.lwjgl:lwjgl:3.3.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.1",
+          "name": "Gradle: org.slf4j:slf4j-api:2.0.7",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-stb:3.3.1",
+          "name": "Gradle: net.minecraft:minecraft-merged-1f338b2c9f:1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.1",
+          "name": "Gradle: net.fabricmc:fabric-loader:0.14.22",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api:0.89.1+1.20.2",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.3.7+109a65e5a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.40+fce67b32a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.lwjgl:lwjgl:natives-linux:3.3.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.42+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.slf4j:slf4j-api:2.0.1",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.1.3+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.minecraft:minecraft-merged-project-root:1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-command-api-v1:1.2.35+f71b366fa0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net.fabricmc:fabric-loader:0.14.19",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-commands-v0:0.2.52+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api:0.79.0+1.19.4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.14+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-transfer-api-v1:3.1.1+da9bb835f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:5.0.3+0ba8e9cea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api-lookup-api-v1:1.6.25+49abcf7ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.5.6+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-blockrenderlayer-v1:1.1.34+c2e6f674f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:13.1.0+bbae80faa0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-client-tags-api-v1:1.0.15+1134c5b8f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.55+b1229956a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-command-api-v2:2.2.6+e719b857f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.24+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-content-registries-v0:3.5.9+ae0966baf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.6.8+daef22a2a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-convention-tags-v1:1.4.1+9a7c5daaf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.14+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-data-generation-api-v1:11.4.0+6cebf059f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-events-lifecycle-v0:0.2.67+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-dimensions-v1:2.1.45+7f87f8faf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.31+43511215a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-entity-events-v1:1.5.13+e45f7c65f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:4.0.12+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-events-interaction-v0:0.4.43+a1ccd7bff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.53+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-gametest-api-v1:1.2.4+ae0966baf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.25+3bafade3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-item-api-v1:2.1.17+09a3510cf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:2.0.1+0ba8e9cea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-item-group-api-v1:3.0.5+043f9acff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-message-api-v1:6.0.0+fce67b32a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-mining-level-api-v1:2.1.39+49abcf7ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-models-v0:0.4.3+9386d8a7a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.2.15+5da15ca1f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-model-loading-api-v1:1.0.4+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-loot-api-v2:1.1.27+75e98211f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:2.0.3+43511215a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-message-api-v1:5.1.1+1ee8be40f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:4.0.1+34a3e0e2a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-models-v0:0.3.30+11ba9c3bf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.36+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-recipe-api-v1:1.0.8+a1ccd7bff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-containers-v0:0.1.70+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-registry-sync-v0:2.2.0+670e8ac6f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:3.0.6+69e331e3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-screen-handler-api-v1:1.3.20+5da15ca1f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:12.1.0+b1b4f7b0a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-networking-api-v1:1.3.1+a6f3ccfaf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.1.3+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-object-builder-api-v1:7.0.3+63b515f4f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.5.0+2034447ca0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-particles-v1:1.0.23+f1e4495bf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:3.2.0+2034447ca0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-renderer-indigo:1.1.1+81e8c576f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.29+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-renderer-api-v1:2.2.5+81e8c576f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-renderer-registries-v1:3.2.47+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.28+afca2f3ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-v0:1.1.50+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-fluids-v1:3.0.21+f1e4495bf4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-v1:3.0.9+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-rendering-v1:2.1.1+8f878217f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:2.0.10+0ba8e9cea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-screen-api-v1:1.0.45+8c25edb4f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.32+fce67b32a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-api-base:0.4.24+9ff28bcef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.11+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-biome-api-v1:13.0.7+348a9c64f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.11+73761d2ea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-block-api-v1:1.0.6+e022e5d1f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.38+73761d2ea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.15+aeb40ebef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-block-view-api-v2:1.0.0+73761d2ea0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.33+a1ccd7bff4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-crash-report-info-v1:0.2.19+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.33+c477957ef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-game-rule-api-v1:1.0.39+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.1+e6c7d4eef4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-keybindings-v0:0.2.35+df3654b3a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.2+1e1fb126f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-key-binding-api-v1:1.0.37+f4b7e424a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.9+75e98211f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-resource-conditions-api-v1:2.3.8+43511215a0",
           "type": "Library"
         },
         {
-          "name": "Gradle: net_fabricmc_yarn_1_19_4_1_19_4_build_2_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:3.0.3+63b515f4f4",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-resource-loader-v0:0.11.10+86b12645a0",
           "type": "Library"
         },
         {
-          "name": "/data/cache/gradle/caches/fabric-loom/1.19.4/net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2/mappings.jar",
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-sound-api-v1:1.0.13+f4b7e424a0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: net_fabricmc_yarn_1_20_2_1_20_2_build_1_v2.net.fabricmc.fabric-api:fabric-transitive-access-wideners-v1:5.0.2+fce67b32a0",
+          "type": "Library"
+        },
+        {
+          "name": "/data/cache/gradle/caches/fabric-loom/1.20.2/net.fabricmc.yarn.1_20_2.1.20.2+build.1-v2/mappings.jar",
           "type": "Library"
         },
         {
@@ -960,6 +996,34 @@
         },
         {
           "name": "Gradle: net.minecrell:terminalconsoleappender:1.2.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl-tinyfd:natives-linux:3.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.lwjgl:lwjgl:natives-linux:3.3.2",
           "type": "Library"
         },
         {
