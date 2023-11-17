@@ -79,13 +79,13 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         final var centeredButtonStart = center - (BUTTON_WIDTH / 2);
 
 
-        savePresetButton = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.save-button"),
-                                                this::savePreset)
-                                       .size(BUTTON_WIDTH,
-                                             BUTTON_HEIGHT)
-                                       .position(centeredButtonStart,
-                                                 (this.height - BOTTOM_OFFSET) - BUTTON_HEIGHT - BUTTON_SPACING)
-                                       .build();
+        savePresetButton        = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.save-button"),
+                                                       this::savePreset)
+                                              .size(BUTTON_WIDTH,
+                                                    BUTTON_HEIGHT)
+                                              .position(centeredButtonStart,
+                                                        (this.height - BOTTOM_OFFSET) - BUTTON_HEIGHT - BUTTON_SPACING)
+                                              .build();
         savePresetButton.active = false;
 
 
@@ -103,13 +103,13 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         newPresetNameField.setChangedListener(presetName -> savePresetButton.active = !presetName.isBlank());
 
 
-        loadPresetButton = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.load-button"),
-                                                this::loadPreset)
-                                       .size(BUTTON_WIDTH,
-                                             BUTTON_HEIGHT)
-                                       .position(centeredButtonStart,
-                                                 presetSelectionListWidget.getHeight() + BUTTON_SPACING)
-                                       .build();
+        loadPresetButton        = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.load-button"),
+                                                       this::loadPreset)
+                                              .size(BUTTON_WIDTH,
+                                                    BUTTON_HEIGHT)
+                                              .position(centeredButtonStart,
+                                                        presetSelectionListWidget.getHeight() + BUTTON_SPACING)
+                                              .build();
         loadPresetButton.active = false;
 
 

@@ -43,7 +43,7 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
 
               ENTRY_HEIGHT);
 
-        this.textRenderer = textRenderer;
+        this.textRenderer  = textRenderer;
         this.presetsScreen = presetsScreen;
 
         // move the left side of the widget to center it within the screen
@@ -99,7 +99,7 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
             this.text = Text.of(name);
 
             this.orderedText = text.asOrderedText();
-            this.textWidth = textRenderer.getWidth(orderedText);
+            this.textWidth   = textRenderer.getWidth(orderedText);
         }
 
 
