@@ -1,17 +1,17 @@
 package com.sxtanna.mc.keybindpresets.client.screen.widget;
 
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import com.sxtanna.mc.keybindpresets.client.screen.KeybindPresetsScreen;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
+import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.widget.AlwaysSelectedEntryListWidget;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.OrderedText;
 import net.minecraft.text.Text;
 
+import java.awt.Color;
 import java.nio.file.Path;
 import java.util.Collection;
 
@@ -43,7 +43,7 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
 
               ENTRY_HEIGHT);
 
-        this.textRenderer = textRenderer;
+        this.textRenderer  = textRenderer;
         this.presetsScreen = presetsScreen;
 
         // move the left side of the widget to center it within the screen
@@ -73,10 +73,6 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
         return rowWidth;
     }
 
-    private void selectPreset(@Nullable final PresetEntry entry) {
-        setSelected(entry);
-    }
-
 
     public final class PresetEntry extends AlwaysSelectedEntryListWidget.Entry<PresetEntry> {
 
@@ -103,7 +99,7 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
             this.text = Text.of(name);
 
             this.orderedText = text.asOrderedText();
-            this.textWidth = textRenderer.getWidth(orderedText);
+            this.textWidth   = textRenderer.getWidth(orderedText);
         }
 
 
@@ -119,16 +115,21 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
                 return false;
             }
 
-            if (PresetSelectionListWidget.this.getSelectedOrNull() == this) {
-                selectPreset(null);
-                presetsScreen.getLoadPresetButton().ifPresent(loadButton -> loadButton.active = false);
-            } else {
-                selectPreset(this);
-                presetsScreen.getLoadPresetButton().ifPresent(loadButton -> loadButton.active = true);
-            }
+            final var currentlySelected = PresetSelectionListWidget.this.getSelectedOrNull();
 
-            return true;
+            final var updatedToSelected = currentlySelected == PresetEntry.this ?
+                                          // if this entry is currently selected, unselect it
+                                          null :
+                                          // otherwise, select this entry
+                                          this;
 
+            PresetSelectionListWidget.this.setSelected(updatedToSelected);
+            PresetSelectionListWidget.this.setFocused(updatedToSelected);
+
+            presetsScreen.getLoadPresetButton()
+                         .ifPresent(loadButton -> loadButton.active = updatedToSelected != null);
+
+            return false;
         }
 
         @Override
@@ -137,7 +138,7 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
         }
 
         @Override
-        public void render(final MatrixStack matrices,
+        public void render(final DrawContext context,
 
                            final int index,
 
@@ -152,11 +153,11 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
 
                            final boolean hovered,
                            final float tickDelta) {
-            textRenderer.drawWithShadow(matrices,
-                                        orderedText,
-                                        (presetsScreen.width / 2f) - (textWidth / 2f),
-                                        y + 3,
-                                        0xffffff);
+            context.drawCenteredTextWithShadow(textRenderer,
+                                               orderedText,
+                                               (presetsScreen.width / 2),
+                                               y + 1,
+                                               !hovered && !isFocused() ? Color.LIGHT_GRAY.getRGB() : Color.WHITE.getRGB());
         }
 
     }

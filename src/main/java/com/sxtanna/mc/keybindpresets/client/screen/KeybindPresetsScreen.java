@@ -6,13 +6,13 @@ import com.sxtanna.mc.keybindpresets.client.KeybindPresetsClient;
 import com.sxtanna.mc.keybindpresets.client.screen.widget.PresetSelectionListWidget;
 
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.option.GameOptionsScreen;
 import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.TextFieldWidget;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.Text;
 
@@ -79,13 +79,13 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         final var centeredButtonStart = center - (BUTTON_WIDTH / 2);
 
 
-        savePresetButton = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.save-button"),
-                                                this::savePreset)
-                                       .size(BUTTON_WIDTH,
-                                             BUTTON_HEIGHT)
-                                       .position(centeredButtonStart,
-                                                 (this.height - BOTTOM_OFFSET) - BUTTON_HEIGHT - BUTTON_SPACING)
-                                       .build();
+        savePresetButton        = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.save-button"),
+                                                       this::savePreset)
+                                              .size(BUTTON_WIDTH,
+                                                    BUTTON_HEIGHT)
+                                              .position(centeredButtonStart,
+                                                        (this.height - BOTTOM_OFFSET) - BUTTON_HEIGHT - BUTTON_SPACING)
+                                              .build();
         savePresetButton.active = false;
 
 
@@ -103,13 +103,13 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
         newPresetNameField.setChangedListener(presetName -> savePresetButton.active = !presetName.isBlank());
 
 
-        loadPresetButton = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.load-button"),
-                                                this::loadPreset)
-                                       .size(BUTTON_WIDTH,
-                                             BUTTON_HEIGHT)
-                                       .position(centeredButtonStart,
-                                                 presetSelectionListWidget.getHeight() + BUTTON_SPACING)
-                                       .build();
+        loadPresetButton        = ButtonWidget.builder(Text.translatable("gui.keybind-presets.presets.load-button"),
+                                                       this::loadPreset)
+                                              .size(BUTTON_WIDTH,
+                                                    BUTTON_HEIGHT)
+                                              .position(centeredButtonStart,
+                                                        presetSelectionListWidget.getHeight() + BUTTON_SPACING)
+                                              .build();
         loadPresetButton.active = false;
 
 
@@ -137,22 +137,19 @@ public final class KeybindPresetsScreen extends GameOptionsScreen {
 
 
     @Override
-    public void render(final MatrixStack matrices, final int mouseX, final int mouseY, final float delta) {
+    public void render(final DrawContext context, final int mouseX, final int mouseY, final float delta) {
+        super.render(context, mouseX, mouseY, delta);
+
         final var center = this.width / 2;
 
-        // render a fresh background
-        renderBackground(matrices);
-
         // render the presets widget
-        presetSelectionListWidget.render(matrices, mouseX, mouseY, delta);
+        presetSelectionListWidget.render(context, mouseX, mouseY, delta);
 
         // render the title of the screen at the top
-        drawCenteredTextWithShadow(matrices, this.textRenderer, this.title, center, 8, 0xffffff);
+        context.drawCenteredTextWithShadow(this.textRenderer, this.title, center, 8, 0xffffff);
 
         // draw the header for the new preset name text field
-        drawCenteredTextWithShadow(matrices, this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.getY() - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
-
-        super.render(matrices, mouseX, mouseY, delta);
+        context.drawCenteredTextWithShadow(this.textRenderer, NEW_PRESET_NAME_TITLE, center, newPresetNameField.getY() - (BUTTON_HEIGHT / 2) - 2, 0xffa0a0a0);
     }
 
 
