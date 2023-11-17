@@ -1,7 +1,6 @@
 package com.sxtanna.mc.keybindpresets.client.screen.widget;
 
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import com.sxtanna.mc.keybindpresets.client.screen.KeybindPresetsScreen;
 
@@ -72,10 +71,6 @@ public final class PresetSelectionListWidget extends AlwaysSelectedEntryListWidg
     @Override
     public int getRowWidth() {
         return rowWidth;
-    }
-
-    private void selectPreset(@Nullable final PresetEntry entry) {
-        setSelected(entry);
     }
 
 
